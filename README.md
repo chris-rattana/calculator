@@ -18,6 +18,7 @@ A simple Python **calculator** package with **pytest** tests and a complete **CI
 │   ├── __init__.py
 │   └── test_calculator.py
 ├── Dockerfile
+├── main.py
 └── .github/workflows/
     ├── ci.yml
     └── cd.yml
@@ -44,13 +45,19 @@ python -m pip install --upgrade pip
 pip install pytest flake8
 ```
 
-### 3) Run tests
+### 3) Run the demo entrypoint
+
+```bash
+python main.py
+```
+
+### 4) Run tests
 
 ```bash
 pytest tests/
 ```
 
-### 4) (Optional) Run lint
+### 5) (Optional) Run lint
 
 ```bash
 flake8 .

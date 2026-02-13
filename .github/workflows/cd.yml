@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: chris-rattana/calculator:latest
+          tags: chrisrattana/calculator:latest
